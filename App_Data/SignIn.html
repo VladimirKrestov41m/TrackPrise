@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <title>Track Prise</title>
+    <script src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="signIn.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="padding: 10px; background-image: url(src/bg.jpg)">
+    <div style="height: 300px; width: 600px;">
+        <br>
+        <div class="row">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+                <div class="col-xs-5 left-block text-uppercase">
+                    <h4><u style="color: blue">Sign in</u></h4>
+                </div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-5 text-right text-uppercase">
+                    <h4>Sign up</h4>
+                </div>
+            </div>
+        </div>
+        <form class="row">
+            <div class="col-xs-3"></div>
+            <div class="form-group col-xs-6">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <br>
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <br>
+                <button type="submit" class="btn btn-primary btn-md center-block text-uppercase" style="width: 100px">
+                    Sign in
+                </button>
+            </div>
+        </form>
+</body>
+
+</html>
